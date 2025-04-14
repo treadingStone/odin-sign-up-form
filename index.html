@@ -8,22 +8,58 @@
         <script src="script.js" async defer></script>
     </head>
     <body>
-        <div>
-            <div>
-                <img src="/resources/odin-lined.png">
+        <div class="side">
+            <div class="spacer"></div>
+            <div class="logo">
+                <img src="resources/odin-lined.png">
                 <p>ODIN</p>
             </div>
-            Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-and-brown-trees-under-blue-sky-during-daytime-bTzpau9mKT4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            <p class="credit">
+                Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-and-brown-trees-under-blue-sky-during-daytime-bTzpau9mKT4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
         </div>
-        <div>
-            <div>
+        <div class="main">
+            <div class="hero">
+                <div></div>
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
                 <p>You <i>know</i> you want to.</p>
             </div>
             <div>
                 <form>
                     <legend>Let's do this!</legend>
-
+                    <fieldset>
+                        <section>
+                            <div>
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name">
+                            </div>
+                            <div>
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name">
+                            </div>
+                        </section>
+                        <section>
+                            <div>
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div>
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone">
+                            </div>
+                        </section>
+                        <section>
+                            <div>
+                                <label for="pw">PASSWORD</label>
+                                <input type="password" id="pw">
+                            </div>
+                            <div>
+                                <label for="pw_confirm">CONFIRM PASSWORD</label>
+                                <input type="password" id="pw_confirm">
+                            </div>
+                        </section>
+                    </fieldset>
+                    <button type="submit">Create Account</button>
                 </form>
             </div>
         </div>

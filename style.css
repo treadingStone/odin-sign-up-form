@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(resources/Norse-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    background-image: url(resources/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spacer {
+    height: 300px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.logo img {
+    height: 140px;
+    width: auto;
+}
+
+.logo p {
+    color: white;
+    font-family: Norse-Bold;
+    font-size: 5rem;
+}
+
+.credit {
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+.main {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: sans-serif;
+    height: 480px;
+    padding: 40px;
+}
+
+.hero div {
+    height: 100%;
+}
+
+.hero p {
+    max-width: 980px;
+    padding: 20px 0;
+}
+
+legend {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+fieldset {
+    border: none;
+    background-color: white;
+    padding: 0 40px;
+}
+
+section {
+    display: flex;
+    padding: 15px 0;
+    gap: 50px;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: dimgrey;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    margin: 40px;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+}
